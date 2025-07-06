@@ -1,0 +1,72 @@
+body { 
+    background-color: aliceblue;
+}
+
+/* Usando o ID como forma de conhecimento, poderia ser a tag direto */
+#titulo-home {
+    text-align: center;
+    color: blueviolet;
+}
+
+#paragrafo-apresentacao {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#hobbies li {
+    margin: 10px;
+}
+
+/* Estilização das Imagens dos Hobbies */
+.hobbie {
+    width: 200px;
+    height: 200px;
+}
+
+/* Estilização das Imagens das Bandeiras */
+.bandeira-pais {
+    width: 130px;
+    height: 70px;
+}
+
+/* Estilo comum para todas as imagens */
+img {
+    border-radius: 5px;
+}
+
+/* Init - Estilização da Tabela */
+#table-paises {
+    width: 50vw;
+    margin: 15px 0px 0px 10px;
+    text-align: center;
+}
+
+#table-paises caption {
+    font-size: 30px;
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+#table-paises thead {
+    background-color: black;
+    color: white;
+}
+
+#table-paises thead th {
+    padding: 10px;
+}
+
+#table-paises tbody {
+    background-color: lightcyan;
+}
+
+/* End - Estilização da Tabela */
+
+#link-receita {
+    font-size: 40px;
+}
+
+#mensagem-curiosidade {
+    display: none;
+}
